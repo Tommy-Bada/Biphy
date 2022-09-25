@@ -39,6 +39,7 @@ form{
     padding: 1.8rem;
     font-size: 1.8rem;
     height: 6rem;
+    padding-right: 0;
 }
 #search-btn{
     background-image: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 50%, rgb(153, 51, 255) 100%);

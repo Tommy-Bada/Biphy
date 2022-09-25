@@ -1,7 +1,8 @@
 let giphy = new Giphy
 let searchBar = document.querySelector("#search")
-
 document.querySelector("form").addEventListener("submit", (e) =>{
+    document.querySelector("#search-result-container").innerHTML = ""
+    document.querySelector("#btn-c").innerHTML = ""
         giphy.getGif(searchBar.value)
         .then((result) => {
             console.log(result.data);
