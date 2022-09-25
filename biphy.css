@@ -1,0 +1,83 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    background: rgb(18, 18, 18);
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 5rem auto 0 auto;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo>img{
+    width: 8rem;
+    margin-left: -2rem;
+}
+#logo>p{
+    font-size: 5rem;
+    margin-left: -1.5rem;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+#search{
+    width: 100%;
+    padding: 1.8rem;
+    font-size: 1.8rem;
+    height: 6rem;
+}
+#search-btn{
+    background-image: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 50%, rgb(153, 51, 255) 100%);
+    padding: 1.5rem;
+    height: 6rem;
+    width: 6rem;
+
+}
+#search-result-container{
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    flex-wrap: wrap;
+}
+.box{
+    text-align: center;
+    margin: 2rem;
+    /* border: 1px solid black; */
+    padding: 1rem;
+}
+iframe{
+    width: max-content;
+    border: none;
+    margin-bottom: 1rem;
+}
+.box>p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+#btn-c{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+button{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    background-image: linear-gradient(45deg, #8748fa 0%, #5780e7 100%);
+    color: white;
+    border: none;
+}
